@@ -1,10 +1,26 @@
-# Intelligent Resume Screening System
+# Intelligent Resume Screening System 🚀
 
-AI-powered system to extract, analyze, and rank resumes based on job descriptions.
+## Overview
+AI-powered system that ranks resumes based on job description using:
+- Skill matching
+- Semantic similarity
+- Explainable scoring
 
 ## Features
-- Resume parsing (PDF, DOCX)
-- NLP-based feature extraction
-- Candidate ranking
-- FastAPI backend
-- Streamlit frontend
+- Upload JD + multiple resumes
+- AI-based ranking
+- Skill gap analysis
+- Downloadable results
+- Streamlit UI dashboard
+
+## Tech Stack
+- Python
+- NLP (spaCy, NLTK)
+- Sentence Transformers (semantic matching)
+- Streamlit (UI)
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+python -m streamlit run frontend/app.py
