@@ -1,7 +1,42 @@
-venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Env files
+.env
+.env.*
+
+# Mac
 .DS_Store
+
+# Logs
+*.log
+
+# Temp files
 temp_*
-data/resumes/
-data/processed/
+*.pdf
+*.docx
+
+# Data & assets
+data/
+project_pics/
+
+# Python env
+venv/
+env/
+
+# Node
+node_modules/
+
+# Secrets
+.env
