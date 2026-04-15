@@ -1,42 +1,63 @@
-# Python
+# -------------------------------
+# 🔥 Python
+# -------------------------------
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
+*.db
+
+# Virtual env
 venv/
 env/
 
-# Node
-node_modules/
-dist/
-build/
-
-# Env files
+# -------------------------------
+# 🔥 Environment Variables (CRITICAL)
+# -------------------------------
 .env
 .env.*
+*.env
 
-# Mac
-.DS_Store
+# -------------------------------
+# 🔥 Node.js
+# -------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Logs
-*.log
+# -------------------------------
+# 🔥 React
+# -------------------------------
+frontend-react/build/
+frontend-react/node_modules/
 
-# Temp files
+# -------------------------------
+# 🔥 Uploads / Runtime Data (VERY IMPORTANT)
+# -------------------------------
+backend/uploads/
+data/resumes/
+
+# -------------------------------
+# 🔥 Temporary Files
+# -------------------------------
 temp_*
 *.pdf
 *.docx
 
-# Data & assets
-data/
-project_pics/
+# -------------------------------
+# 🔥 OS Files
+# -------------------------------
+.DS_Store
+Thumbs.db
 
-# Python env
-venv/
-env/
+# -------------------------------
+# 🔥 Logs
+# -------------------------------
+*.log
 
-# Node
-node_modules/
-
-# Secrets
-.env
+# -------------------------------
+# 🔥 IDE
+# -------------------------------
+.vscode/
+.idea/
